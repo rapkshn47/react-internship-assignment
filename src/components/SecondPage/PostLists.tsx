@@ -10,7 +10,7 @@ interface post {
 
 function PostLists() {
   const apiURL = "https://jsonplaceholder.typicode.com/posts";
-  const [posts, setPosts] = useState<post[]>([]); // Specify the type as an array of 'post'
+  const [posts, setPosts] = useState<post[]>([]); 
 
   useEffect(() => {
     async function fetchPost() {
